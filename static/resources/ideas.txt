@@ -1,0 +1,52 @@
+Only HTML and CSS
+basic idea --> cell like e.coli with parts in it with links to other pages with other parts 
+Parts:
+    1.  About me
+        - Who am I?
+        - what are my hobbies
+        - my interests
+        
+    2.  Work and Experience
+        - here just pace my work experience and maybe links??
+
+    3.  News
+        - here just news in my life (but only important stuff!! 
+
+    4.  My projects sofar
+        - here i paste work i did sofar (it or biology or other stuff)
+
+Representation of this parts:
+    1.  nucleous with DNA (maybe also some Transkription and translation
+         to protein for part with about my inerests) 
+
+    2.  Mythohondrium (a powerhouse of the cell!!) hehehe
+
+    3.  Cell plasma
+
+    4. extracellular space
+
+General Idea:
+    all should have light tones
+    navbar should be at the top and show all the avalible links
+    button at the side (only on subhome sites)
+    
+    general idea is: we are loking trought a mikroscope
+
+    if somebody helps me --> mentioning him in point index and also all the links 
+    paste there
+
+    Sites:
+    - index:    Small cell floating somewhere must be klikable with the link
+                to overlook (homepage)
+    
+    - overlook: should show all main parts of our cell (i also should note that it is not 
+                sized according to reality!)
+
+    -DNA:        Point 1
+
+    -Mythohondrium: Point 2
+
+    - Plasma:   Point 3
+
+    - extracellular: Point 4
+ 
