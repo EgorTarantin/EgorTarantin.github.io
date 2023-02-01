@@ -1,0 +1,92 @@
+.content {
+    grid-column: 1/13;
+    display: block;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+}
+
+.cell{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+
+a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes cell-idle {
+    0% {opacity: 1;}
+    24.9% {opacity: 1;}
+    25% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.frm1 {
+    animation-name: cell-idle;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+    opacity: 1;
+}
+
+.frm2 {
+    animation-name: cell-idle;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+    opacity: 0;
+}
+
+.frm3 {
+    animation-name: cell-idle;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 400ms;
+    opacity: 0;
+}
+
+.frm4 {
+    animation-name: cell-idle;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+    opacity: 0;
+}
+
+@keyframes cell-mov {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.cell {
+    animation-name: cell-mov;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

@@ -1,3 +1,7 @@
+/*
+General
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +13,89 @@ body {
 
 .text-format-main {
     font-size: 25px;
+    color: black;
+}
+
+.text-format-text {
+    font-size: 17px;
+    color: black;
+}
+
+.text-format-comment {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
 }
 
 .grid-main {
     display: grid;
-    grid-column: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+}
+
+/*
+Navbar
+*/
+
+nav {
+    display: flex;
+    background-color: #B69633;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-active {
+    background-color: #FFD247;
+    color: rgb(59, 59, 59);
+}
+
+.nav-btn {
+    display: none;
+}
+
+.nav-list a:hover {
+    background-color: #D6B13E;
+}
+
+.nav-active:hover {
+    background-color: #FFD247 !important;
+}
+
+@media (max-width: 920px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+        font-size: 41px;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: #B69633;
+        color: black;
+        cursor: pointer;
+    }
+
+    .drop:hover .nav-list {
+        display: block;
+        position: absolute;
+        background-color: #B69633;
+    }
+
+    .drop:hover .nav-btn {
+        background-color: #D6B13E;
+    }
+
+    .nav-list a:hover {
+        background-color: #D6B13E;
+    }
+
 }
