@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+
 .cell{
     display: inline-block;
     width: 64px;
@@ -60,10 +61,10 @@ a img {
 }
 
 @keyframes cell-mov {
-	0% {
+    0% {
 		transform: translate(0);
 	}
-
+    
 	20% {
 		transform: translate(-2px, 2px);
 	}
@@ -73,11 +74,11 @@ a img {
 	}
 
 	60% {
-		transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
 	}
 
 	80% {
-		transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
 	}
 
 	100% {
@@ -89,4 +90,12 @@ a img {
     animation-name: cell-mov;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+
+@media (max-width: 920px) {
+    .content {
+        padding: 0;
+        padding-top: 100px;
+        margin: 20px;
+    }
 }
