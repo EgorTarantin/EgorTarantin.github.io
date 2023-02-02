@@ -8,22 +8,26 @@ General
 }
 
 body {
-    background-color: #FFD247;
+    background-color: black;
 }
 
 .text-format-main {
-    font-size: 25px;
-    color: black;
+    font-size: 35px;
+    color: white;
 }
 
 .text-format-text {
     font-size: 17px;
-    color: black;
+    color: white;
 }
 
 .text-format-comment {
     font-size: 15px;
-    color: rgb(59, 59, 59);
+    color: #9b9a9a;
+}
+
+.bold {
+    font-weight: bolder;
 }
 
 .grid-main {
@@ -38,11 +42,17 @@ Navbar
 
 nav {
     display: flex;
-    background-color: #B69633;
+    background-color: #3a3737;
+}
+
+.drop {
+    display: inline-block;
+    width: 100%;
 }
 
 .nav-list {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-list a {
@@ -52,8 +62,8 @@ nav {
 }
 
 .nav-active {
-    background-color: #FFD247;
-    color: rgb(59, 59, 59);
+    background-color:black;
+    color: #9b9a9a;
 }
 
 .nav-btn {
@@ -61,11 +71,11 @@ nav {
 }
 
 .nav-list a:hover {
-    background-color: #D6B13E;
+    background-color: #1c1c1c;
 }
 
 .nav-active:hover {
-    background-color: #FFD247 !important;
+    background-color: black !important;
 }
 
 @media (max-width: 920px) {
@@ -76,28 +86,28 @@ nav {
         
         .nav-btn {
             display: block;
-            font-size: 41px;
+            font-size: 33px;
             padding-inline: 10px;
             padding-bottom: 3px;
             border: none;
-            background-color: #B69633;
-            color: black;
+            background-color: black;
+            color: white;
             cursor: pointer;
         }
 
         .drop:hover .nav-list {
             display: block;
             position: absolute;
-            background-color: #B69633;
+            background-color: #3a3737;
             z-index: 99;
         }
     
         .drop:hover .nav-btn {
-            background-color: #D6B13E;
+            background-color: #1c1c1c;
         }
     
         .nav-list a:hover {
-            background-color: #D6B13E;
+            background-color: #1c1c1c;
         }
     }
 }
@@ -110,7 +120,7 @@ nav {
         
         .nav-list {
             display: block;
-            background-color: #B69633;
+            background-color: #3a3737;
             text-align: center;
         }
     }
