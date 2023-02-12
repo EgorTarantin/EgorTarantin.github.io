@@ -11,8 +11,12 @@ body {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .text-format-main {
-    font-size: 35px;
+    font-size: 3vw;
     color: white;
 }
 
@@ -34,6 +38,12 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1);
+}
+
+@media (max-width: 920px) {
+    .text-format-main {
+        font-size: 7.7vw;
+    }
 }
 
 /*
@@ -90,7 +100,7 @@ nav {
             padding-inline: 10px;
             padding-bottom: 3px;
             border: none;
-            background-color: black;
+            background-color: #3a3737;
             color: white;
             cursor: pointer;
         }
