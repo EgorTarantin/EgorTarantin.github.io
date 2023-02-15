@@ -1,0 +1,37 @@
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    grid-column: 2/13;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/pla-plasma-background.png");
+    background-size: 100% 100%;
+    justify-content: center;
+}
+
+.textbox {
+    display: flex;
+    margin-top: 12%;
+    width: 60%;
+    flex-direction: column;
+}
+
+.textbox p {
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .textbox {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 370px) {
+    .textbox {
+        margin-top: 31%;
+    }
+}

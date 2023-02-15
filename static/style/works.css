@@ -1,0 +1,32 @@
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    grid-column: 2/12;
+    flex-direction: column;
+}
+
+.entry {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.entry img {
+    height: 100%;
+    width: 20%;
+}
+
+.textbox {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/ext-textbox-left.png");
+    background-size: 100% 100%;
+    flex-direction: column;
+}
