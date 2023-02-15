@@ -1,0 +1,46 @@
+section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    grid-column: 2/12;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/mit-mithochondrion-background.png");
+    background-size: 100% 100%;
+}
+
+.deskr-anim-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.ATPase-anim {
+    display: block;
+    height: 45%;
+    width: 52%;
+    margin-left: 35%;
+    margin-top: 1%;
+    background-image: url("../images/mit-ATPase-anim-1.png");
+    background-size: 100% 100%;
+    animation-name: ATPase;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.description {
+    display: block;
+    margin-top: 5%;
+}
+
+@keyframes ATPase {
+    0%      {background-image: url("../images/mit-ATPase-anim-1.png");}
+    25%     {background-image: url("../images/mit-ATPase-anim-2.png");}
+    50%     {background-image: url("../images/mit-ATPase-anim-3.png");}
+    75%     {background-image: url("../images/mit-ATPase-anim-4.png");}
+    100%    {background-image: url("../images/mit-ATPase-anim-1.png");}
+}
