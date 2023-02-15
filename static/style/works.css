@@ -24,9 +24,31 @@ section {
 .textbox {
     display: flex;
     width: 40%;
-    justify-content: center;
-    align-items: center;
     background-image: url("../images/ext-textbox-left.png");
     background-size: 100% 100%;
+}
+
+.textbox-inner {
+    display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+@media (max-width: 920px) {
+    .entry {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .entry img {
+        width: 50%;
+    }
+
+    .textbox {
+        width: 100%;
+    }
 }
